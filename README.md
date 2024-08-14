@@ -1,6 +1,6 @@
 # Improved-NSGA-II-for-cutter-layout-optimization
 Optimization of cutter layout for shield cutterhead based on improved NSGA-II algorithm
-  1. Changeable variables: Number of cutters(NUM_VARIABLES), Population size(popu), Iteration number(gene).
+  1. Changeable variables: Number of cutters(NUM_VARIABLES), Cutterhead size(max_radius, min_radius), Population size(popu), Iteration number(gene).
   2. Population initialization improvement: Spiral arrangement of the cutter on the spokes (optional: concentric arrangement or random arrangement);
   3. Objectives:<br>
      (1) Minimum radial load;<br>
