@@ -3,8 +3,8 @@ Optimization of cutter layout for shield cutterhead based on improved NSGA-II al
   1. Changeable variables: Number of cutters(NUM_VARIABLES), Cutterhead size(max_radius, min_radius), Population size(popu), Iteration number(gene).
   2. Population initialization improvement: Spiral arrangement of the cutter on the spokes (optional: concentric arrangement or random arrangement);
   3. Objectives:<br>
-     (1) Minimum radial load;<br>
-     (2) Minimum overturning moment;<br>
+     (1) Minimum overturning moment;<br>
+     (2) Minimum radial load;<br>
      (3) Minimum standard deviation of rock breakage;<br>
      (4) Maximum cutter dispersion.<br>
   4. Constrains: <br>
